@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'TheLastOfUs';
+  src: url('/fonts/The-Last-Of-Us-Rough.ttf') format('truetype');
+}
+
+@theme {
+  --font-TheLastOfUs: "TheLastOfUs", "sans-serif";
+  --font-TheLastOfUs--font-feature-settings: "cv02", "cv03", "cv04", "cv11"; 
+  --font-TheLastOfUs--font-variation-settings: "opsz" 32; 
+}

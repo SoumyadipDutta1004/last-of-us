@@ -1,8 +1,16 @@
+import Choice from "@/components/sections/Choice";
+import Hero from "@/components/sections/Hero";
+import Video from "@/components/sections/Video";
+import SmoothScroll from "@/components/SmoothScroll";
 
-export default function Home() {
+export default function Page() {
   return (
-    <div>
-
-    </div>
+    <>
+      <SmoothScroll>
+        <Hero />
+        <Video />
+        <Choice />
+      </SmoothScroll>
+    </>
   );
 }
