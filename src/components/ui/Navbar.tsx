@@ -20,9 +20,9 @@ export default function Navbar() {
             height={50}
             className="invert"
           />
-          <p className="uppercase font-bold text-sm tracking-wider">In streaming the 14th april</p>
+          <p className="uppercase font-bold text-sm tracking-wider max-sm:hidden">In streaming the 14th april</p>
         </div>
-        <Link href="/" className="bg-black py-1.5 px-4 text-white uppercase">
+        <Link href="/" className="bg-black py-1.5 px-4 text-white uppercase max-sm:text-sm">
           see on <span className="font-bold">max</span>
         </Link>
       </nav>

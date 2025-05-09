@@ -6,7 +6,7 @@ import Title from "../ui/Title";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen w-full relative overflow-hidden">
+    <section className="min-h-screen md:h-[120vh] w-full relative overflow-hidden">
       <Parallax
         speed={0}
         className="absolute z-30 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center w-full h-full"
